@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#about{
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    background: rgb(15, 12, 12);
+    color: #fff;
+}
+
+
+
+
+.about_text
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about_text .About-Me p
+{
+    font-size: 18px;
+}
+
+ .Skills li{
+     margin: 20px 0px;
+    list-style: none;
+}
+
+.about_text .Skills .bar{
+    background: grey;
+    display: block;
+    height: .4rem;
+    border: .1rem solid silver;
+    border-radius: .3rem;
+    box-shadow: 0 0 1rem #2187e7b3;
+    
+    }
+    
+    .about_text .Skills .bar span{
+        height: .4rem;
+        background: rgb(6, 83, 83);
+        float: left;
+    }
+    
+    
+    .Skills .html{
+        width: 90%;
+    }
+    
+    .Skills .CSS{
+        width: 90%;
+    }
+    
+    .Skills .Bootstrap{
+        width: 80%;
+    }
+    
+     .Skills .Javascript{
+        width: 50%;
+    }
+    .Skills .JQuery{
+        width: 55%;
+    }
+    
+    
+    #wrapper .left-section .learning{
+        color: grey;
+        font-size: 1.7rem;
+        padding: 1rem 0rem;
+    }
+    #wrapper .Skills a{
+        color: grey;
+        text-decoration: none;
+        font-size: 1.7rem;
+    }
+    #wrapper .Skills a:hover{
+        color: lightgray;
+    }
+    

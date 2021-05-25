@@ -1,0 +1,255 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+/*banner header starts */
+
+#banner
+{
+    width: 100%;
+    height: 100vh;
+   background-image: url(../Image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner header
+{
+    width: 100%;
+    background: #fff;
+    padding-top: 30px;
+   padding-bottom: 20px;
+   position: relative;
+   top: 3px;
+}
+
+#banner nav
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#banner .logo
+{
+    width: 13%;
+  
+}
+#banner .logo h2
+{
+    color: darkgreen;
+    text-align:left ;
+    font-family: 'Pattaya', sans-serif;
+   
+}
+
+#banner .list
+{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner .list li
+{
+    list-style: none;
+}
+#banner .list li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: #32404d;
+}
+#banner .list li a:hover, #banner .hire_me span:hover
+{
+    color: darkgreen;
+}
+
+#banner .hire_me
+{
+    width: 20%;
+    color: #32404d;
+}
+
+#banner .hire_me span
+{
+    font-weight: bold;
+}
+
+#banner .links
+{
+    width: 10%;
+}
+#banner .links .fa
+{
+    padding: 6px;
+    color: #fff;
+    border-radius:3px;
+   
+}
+#banner .links .fa:hover
+{
+    background: darkgreen;
+}
+
+#banner .links .fa-linkedin
+{
+    background: #0077b5;
+}
+
+#banner .links .fa-github
+{
+    background: #4078c0;
+    margin-left: 7px;
+}
+/*banner header ends */
+
+/* banner_text starts */
+
+#banner .banner_text
+{
+    width: 40%;
+    position: relative;
+    top: 30%;
+    margin-left: 5%;
+    color: #000;
+}
+
+.banner_text h4, .banner_text h1, .banner_text p
+{
+    font-weight: bold;
+}
+.banner_text h4
+{
+    font-size: 26px;
+}
+
+.banner_text h1
+{
+    font-size: 48px;
+}
+
+.banner_text p
+{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.banner_text a
+{
+    background: darkcyan;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+    transform: 1s;
+}
+
+.banner_text a:hover
+{
+    background: none;
+    border: 1px solid rgb(231, 200, 200);
+    transition: 1s;
+    color: #000;
+}
+
+.fa-navicon 
+{
+   margin-left: 95%;
+   font-size: 24px;
+   display: none;
+   position: absolute;
+   margin-top: 15px;
+ 
+}
+
+/* banner_text ends */
+
+/* add media query */
+
+@media only screen and (max-width:760px) {
+   
+    .fa-navicon 
+    {
+        display: block;
+             
+    }
+    #banner
+    {
+        position: relative;
+    }
+
+    #banner header
+    {
+        display: none;
+        position: absolute;
+        width: 80%;
+        z-index: 999;
+        text-align: center;
+        top: 0;
+    }
+
+        #banner nav
+    {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    #banner .list
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    #banner .list li
+    {
+        padding: 10px 0px;
+    }
+
+    #banner .hire_me
+    {
+        width:100%;
+        color: #32404d;
+    } 
+    #banner .links{
+        width: 100%;
+    }
+    
+    .banner_text h1
+    {
+        font-size: 38px;
+    }
+
+}
+
+@media only screen and (max-width:500px){
+    .fa-navicon 
+    {
+       margin-left: 92%;
+      
+    }
+
+    #banner .banner_text
+    {
+        width: 65%;
+    }
+    #banner .banner_text
+    {
+    
+        top: 23%;
+    
+    }
+    .banner_text a
+    {
+  
+    padding: 10px 25px;
+   
+    }
+
+}
+
+/* the ends */
