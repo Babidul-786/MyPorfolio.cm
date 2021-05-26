@@ -7,7 +7,7 @@
 
 .wrapper{
     width: 100%;
-    padding: 30px 0px;
+    padding: 20px 0px;
 }
 
 .wrapper .header{
@@ -41,4 +41,24 @@ hr{
 .summary h2{
     margin-left: 30px;
     margin-top: 10px;
+}
+
+/* add media query */
+
+@media only screen and (max-width:600px) {
+    .wrapper .header{
+        width: 90%;
+        margin: 0 auto;
+       
+    }
+
+    .summary li{
+        font-size: 17px;
+    }
+
+    .summary .padding
+    {
+        padding-right: 15px;
+    }
+
 }

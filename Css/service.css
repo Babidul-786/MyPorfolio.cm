@@ -104,6 +104,10 @@
     line-height: 25px;
 }
 
+.project_box .margin{
+   padding-bottom: 20px;
+}
+
 /* add media query */
 
 @media only screen and (max-width:740px) {
